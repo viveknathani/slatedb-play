@@ -2,8 +2,3 @@
 name = "slatedb-play"
 version = "0.1.0"
 edition = "2024"
-
-[dependencies]
-slatedb = { git = "ssh://git@github.com/viveknathani/slatedb.git", branch = "vivek/hack" }
-slatedb-common = { git = "ssh://git@github.com/viveknathani/slatedb.git", branch = "vivek/hack", features = ["test-util"] }
-tokio = { version = "1", features = ["macros", "rt-multi-thread", "time"] }
